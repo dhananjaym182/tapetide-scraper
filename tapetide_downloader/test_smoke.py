@@ -4,6 +4,9 @@ import sys
 
 sys.path.insert(0, os.path.dirname(__file__))
 
+# The test writes JSON/CSV into out/ — create it if missing (fresh CI checkout).
+os.makedirs("out", exist_ok=True)
+
 from tapetide_downloader import (
     FinancialSnapshot,
     StockData,
