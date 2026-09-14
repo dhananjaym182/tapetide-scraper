@@ -11,8 +11,9 @@ Built and verified against all **500 Nifty 500 constituents** (see
 
 ## ✨ Features
 
-- **Zero dependencies** — Python 3.9+ standard library only, nothing to `pip install`
+- **Zero dependencies** (Tapetide) — Python 3.9+ standard library only
 - **Two data paths** — keyless `.md` mirror scraping **and** an authenticated MCP client (`mcp_client.py`, 52 tools, verified)
+- **Screener.in scraper included** — verified ground-truth statements, JSON + CSV, batch + resume (`screener_scraper/`)
 - **Full financial snapshot** — price, market cap, P/E (reported & TTM), EPS,
   book value, P/B, dividend yield, ROE, ROCE, D/E, revenue, net income, EBITDA,
   52-week range, RSI(14), volume and more
@@ -29,7 +30,8 @@ Built and verified against all **500 Nifty 500 constituents** (see
 
 ## 🚀 Getting Started
 
-**Requirements:** Python **3.9+** — that's it.
+**Requirements:** Python **3.9+** — that's it. (The Screener.in scraper additionally
+uses `requests` + `beautifulsoup4` — `pip install -r screener_scraper/requirements.txt`.)
 
 ```bash
 git clone https://github.com/dhananjaym182/tapetide-scraper.git
@@ -97,6 +99,25 @@ Takes ~19 minutes at the default 1s delay. Useful options:
 **Resume support:** already-downloaded symbols are skipped automatically.
 Delete `<SYMBOL>_data.json` to force a re-fetch, or just re-run the command —
 failed symbols are retried on the next run.
+
+### 5. Bonus: Screener.in scraper (`screener_scraper/`)
+
+Verified ground truth for financial statements (see [verification](#-verified-results)):
+annual P&L back to Mar 2015, 13 quarters, balance sheet, cash flow, shareholding,
+peers — with JSON + CSV export and the same batch/resume workflow:
+
+```bash
+pip install -r screener_scraper/requirements.txt
+python3 screener_scraper/screener_scraper.py SBIN \
+    --json out/screener/SBIN.json --csv-dir out/screener/csv
+```
+
+Anti-blocking: browser headers, enforced throttle + jitter, TTL cache,
+`Retry-After` backoff, optional proxy. Details in `screener_scraper/README.md`.
+
+> ⚠️ **Data-quality note:** Tapetide's `.md` "Financial Statements" table mislabels
+> Screener's **annual** series as quarterly for some rows — use Screener.in (or
+> Tapetide's MCP, which is correct) for period-aligned statements.
 
 ---
 
@@ -213,12 +234,19 @@ tapetide-scraper/
 ├── .gitignore                       # keeps data outputs & caches out of git
 ├── LICENSE                          # MIT
 │
-├── tapetide_downloader/             # the app
+├── tapetide_downloader/             # Tapetide data (.md mirror + MCP client)
 │   ├── tapetide_downloader.py       # core: fetcher, parsers, models, CLI
+│   ├── mcp_client.py                # Tapetide MCP client (52 tools, verified)
 │   ├── batch_download.py            # batch downloader (resume + error log)
 │   ├── test_smoke.py                # offline smoke test (no network needed)
 │   ├── nifty500_symbols.txt         # official NSE Nifty 500 symbol list
 │   └── README.md                    # detailed module-level docs
+│
+├── screener_scraper/                # Screener.in scraper (JSON + CSV)
+│   ├── screener_scraper.py          # fetch + parse + export + batch CLI
+│   ├── test_screener_offline.py     # offline parser test
+│   ├── requirements.txt             # requests, beautifulsoup4, lxml
+│   └── README.md                    # usage + anti-blocking details
 │
 ├── output/                          # created at runtime — gitignored
 │   ├── SBIN_data.json               # full dump: snapshot + all 12 tables

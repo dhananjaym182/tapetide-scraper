@@ -17,7 +17,16 @@ jobs:
           python-version: "3.11"
 
       - name: Compile check
-        run: python -m py_compile tapetide_downloader/tapetide_downloader.py tapetide_downloader/batch_download.py
+        run: |
+          python -m py_compile tapetide_downloader/tapetide_downloader.py
+          python -m py_compile tapetide_downloader/mcp_client.py
+          python -m py_compile tapetide_downloader/batch_download.py
+          python -m py_compile screener_scraper/screener_scraper.py
 
-      - name: Offline smoke test (no network)
+      - name: Offline smoke test — tapetide (no network)
         run: python tapetide_downloader/test_smoke.py
+
+      - name: Offline smoke test — screener scraper (no network)
+        run: |
+          python -m pip install --quiet requests beautifulsoup4 lxml
+          python screener_scraper/test_screener_offline.py
