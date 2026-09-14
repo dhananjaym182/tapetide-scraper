@@ -1,0 +1,1472 @@
+{
+  "symbol": "VEDL",
+  "snapshot": {
+    "symbol": "VEDL",
+    "company": "Vedanta Ltd",
+    "sector": "Commodities",
+    "industry": "Diversified Metals",
+    "market_cap_cr": 102354.41,
+    "pe_reported": 3.7,
+    "pe_ttm": 5.24,
+    "eps_ttm": 50.33,
+    "eps_reported": 13.95,
+    "book_value": 126.97,
+    "price_to_book": 2.12,
+    "dividend_yield_pct": 12.64,
+    "roe_pct": 18.2,
+    "roce_pct": 10.06,
+    "debt_to_equity": 0.66,
+    "revenue_yearly_cr": 79987.0,
+    "net_income_cr": 12480.0,
+    "ebitda_cr": 24734.0,
+    "week_52_high": 360.0,
+    "week_52_low": 161.66,
+    "rsi_14": 45.99,
+    "price": 263.7,
+    "change": -5.35,
+    "change_pct": -1.99,
+    "volume": 11843976,
+    "generated_at": "2026-09-13T12:37:56.281Z"
+  },
+  "tables": {
+    "Company": {
+      "label": "Company",
+      "period_header": [],
+      "rows": []
+    },
+    "About": {
+      "label": "About",
+      "period_header": [],
+      "rows": []
+    },
+    "Latest Price": {
+      "label": "Latest Price",
+      "period_header": [],
+      "rows": []
+    },
+    "Key Fundamentals": {
+      "label": "Key Fundamentals",
+      "period_header": [],
+      "rows": []
+    },
+    "Tapetide Score": {
+      "label": "Tapetide Score",
+      "period_header": [
+        "Pillar",
+        "Score",
+        "Weight"
+      ],
+      "rows": [
+        {
+          "_row_label": null,
+          "Pillar": "financial health",
+          "Score": "34.77",
+          "Weight": "9%"
+        },
+        {
+          "_row_label": null,
+          "Pillar": "growth",
+          "Score": "11.68",
+          "Weight": "9%"
+        },
+        {
+          "_row_label": null,
+          "Pillar": "momentum",
+          "Score": "51.98",
+          "Weight": "12%"
+        },
+        {
+          "_row_label": null,
+          "Pillar": "ownership",
+          "Score": "33.7",
+          "Weight": "24%"
+        },
+        {
+          "_row_label": null,
+          "Pillar": "quality",
+          "Score": "76.82",
+          "Weight": "22%"
+        },
+        {
+          "_row_label": null,
+          "Pillar": "valuation",
+          "Score": "90.61",
+          "Weight": "24%"
+        }
+      ]
+    },
+    "Key Insights": {
+      "label": "Key Insights",
+      "period_header": [],
+      "rows": []
+    },
+    "Growth Rates": {
+      "label": "Growth Rates",
+      "period_header": [
+        "Metric",
+        "QoQ",
+        "1Y",
+        "3Y",
+        "5Y"
+      ],
+      "rows": [
+        {
+          "_row_label": null,
+          "Metric": "cash flow growth",
+          "QoQ": "—",
+          "1Y": "-0.16%",
+          "3Y": "10.78%",
+          "5Y": "12.97%"
+        },
+        {
+          "_row_label": null,
+          "Metric": "ebitda margin growth",
+          "QoQ": "-10.39%",
+          "1Y": "-2.21%",
+          "3Y": "19.8%",
+          "5Y": "-11.76%"
+        },
+        {
+          "_row_label": null,
+          "Metric": "net income growth",
+          "QoQ": "-15.33%",
+          "1Y": "34.54%",
+          "3Y": "17%",
+          "5Y": "8%"
+        },
+        {
+          "_row_label": null,
+          "Metric": "revenue growth",
+          "QoQ": "-8.93%",
+          "1Y": "23.92%",
+          "3Y": "-19%",
+          "5Y": "-2%"
+        },
+        {
+          "_row_label": null,
+          "Metric": "roce",
+          "QoQ": "-10.7%",
+          "1Y": "-17.54%",
+          "3Y": "-62.18%",
+          "5Y": "20.35%"
+        },
+        {
+          "_row_label": null,
+          "Metric": "roe",
+          "QoQ": "-15.33%",
+          "1Y": "5.45%",
+          "3Y": "17.79%",
+          "5Y": "-36.52%"
+        }
+      ]
+    },
+    "Financial Statements": {
+      "label": "Financial Statements",
+      "period_header": [
+        "Sep 2023",
+        "Dec 2023",
+        "Mar 2024",
+        "Jun 2024",
+        "Sep 2024",
+        "Dec 2024",
+        "Mar 2025",
+        "Jun 2025",
+        "Sep 2025",
+        "Dec 2025",
+        "Mar 2026",
+        "Jun 2026"
+      ],
+      "rows": [
+        {
+          "_row_label": "Sales",
+          "Sep 2023": "38945",
+          "Dec 2023": "35541",
+          "Mar 2024": "35509",
+          "Jun 2024": "35764",
+          "Sep 2024": "37634",
+          "Dec 2024": "17063",
+          "Mar 2025": "16686",
+          "Jun 2025": "15754",
+          "Sep 2025": "18747",
+          "Dec 2025": "21337",
+          "Mar 2026": "24609",
+          "Jun 2026": "24205"
+        },
+        {
+          "_row_label": "Expenses",
+          "Sep 2023": "27466",
+          "Dec 2023": "27010",
+          "Mar 2024": "26741",
+          "Jun 2024": "25819",
+          "Sep 2024": "27806",
+          "Dec 2024": "12050",
+          "Mar 2025": "11440",
+          "Jun 2025": "11478",
+          "Sep 2025": "13832",
+          "Dec 2025": "14816",
+          "Mar 2026": "17050",
+          "Jun 2026": "15704"
+        },
+        {
+          "_row_label": "Operating Profit",
+          "Sep 2023": "11479",
+          "Dec 2023": "8531",
+          "Mar 2024": "8768",
+          "Jun 2024": "9945",
+          "Sep 2024": "9828",
+          "Dec 2024": "5013",
+          "Mar 2025": "5246",
+          "Jun 2025": "4276",
+          "Sep 2025": "4915",
+          "Dec 2025": "6521",
+          "Mar 2026": "7559",
+          "Jun 2026": "8501"
+        },
+        {
+          "_row_label": "OPM %",
+          "Sep 2023": "29",
+          "Dec 2023": "24",
+          "Mar 2024": "25",
+          "Jun 2024": "28",
+          "Sep 2024": "26",
+          "Dec 2024": "29",
+          "Mar 2025": "31",
+          "Jun 2025": "27",
+          "Sep 2025": "26",
+          "Dec 2025": "31",
+          "Mar 2026": "31",
+          "Jun 2026": "35"
+        },
+        {
+          "_row_label": "Other Income",
+          "Sep 2023": "1863",
+          "Dec 2023": "779",
+          "Mar 2024": "385",
+          "Jun 2024": "934",
+          "Sep 2024": "3168",
+          "Dec 2024": "3202",
+          "Mar 2025": "2771",
+          "Jun 2025": "2737",
+          "Sep 2025": "1248",
+          "Dec 2025": "4426",
+          "Mar 2026": "5503",
+          "Jun 2026": "3166"
+        },
+        {
+          "_row_label": "Interest",
+          "Sep 2023": "2523",
+          "Dec 2023": "2417",
+          "Mar 2024": "2415",
+          "Jun 2024": "2222",
+          "Sep 2024": "2667",
+          "Dec 2024": "1073",
+          "Mar 2025": "1071",
+          "Jun 2025": "609",
+          "Sep 2025": "1033",
+          "Dec 2025": "547",
+          "Mar 2026": "694",
+          "Jun 2026": "662"
+        },
+        {
+          "_row_label": "Depreciation",
+          "Sep 2023": "2642",
+          "Dec 2023": "2788",
+          "Mar 2024": "2743",
+          "Jun 2024": "2731",
+          "Sep 2024": "2696",
+          "Dec 2024": "1238",
+          "Mar 2025": "1191",
+          "Jun 2025": "1116",
+          "Sep 2025": "1303",
+          "Dec 2025": "1239",
+          "Mar 2026": "1332",
+          "Jun 2026": "1192"
+        },
+        {
+          "_row_label": "Profit before tax",
+          "Sep 2023": "8177",
+          "Dec 2023": "4105",
+          "Mar 2024": "3995",
+          "Jun 2024": "5926",
+          "Sep 2024": "7633",
+          "Dec 2024": "5904",
+          "Mar 2025": "5755",
+          "Jun 2025": "5288",
+          "Sep 2025": "3827",
+          "Dec 2025": "9161",
+          "Mar 2026": "11036",
+          "Jun 2026": "9813"
+        },
+        {
+          "_row_label": "Tax %",
+          "Sep 2023": "111",
+          "Dec 2023": "30",
+          "Mar 2024": "43",
+          "Jun 2024": "14",
+          "Sep 2024": "27",
+          "Dec 2024": "17",
+          "Mar 2025": "14",
+          "Jun 2025": "16",
+          "Sep 2025": "9",
+          "Dec 2025": "15",
+          "Mar 2026": "15",
+          "Jun 2026": "19"
+        },
+        {
+          "_row_label": "Net Profit",
+          "Sep 2023": "-915",
+          "Dec 2023": "2868",
+          "Mar 2024": "2275",
+          "Jun 2024": "5095",
+          "Sep 2024": "5603",
+          "Dec 2024": "4876",
+          "Mar 2025": "4961",
+          "Jun 2025": "4457",
+          "Sep 2025": "3479",
+          "Dec 2025": "7807",
+          "Mar 2026": "9352",
+          "Jun 2026": "7918"
+        },
+        {
+          "_row_label": "EPS in Rs",
+          "Sep 2023": "-4.8",
+          "Dec 2023": "5.42",
+          "Mar 2024": "3.68",
+          "Jun 2024": "9.7",
+          "Sep 2024": "11.13",
+          "Dec 2024": "9.07",
+          "Mar 2025": "8.91",
+          "Jun 2025": "8.14",
+          "Sep 2025": "4.6",
+          "Dec 2025": "14.6",
+          "Mar 2026": "17.13",
+          "Jun 2026": "14"
+        },
+        {
+          "_row_label": "Item",
+          "Sep 2023": "Mar 2018",
+          "Dec 2023": "Mar 2019",
+          "Mar 2024": "Mar 2020",
+          "Jun 2024": "Mar 2021",
+          "Sep 2024": "Mar 2022",
+          "Dec 2024": "Mar 2023",
+          "Mar 2025": "Mar 2024",
+          "Jun 2025": "Mar 2025",
+          "Sep 2025": "Mar 2026",
+          "Dec 2025": "TTM",
+          "Mar 2026": null,
+          "Jun 2026": null
+        },
+        {
+          "_row_label": "---",
+          "Sep 2023": "---",
+          "Dec 2023": "---",
+          "Mar 2024": "---",
+          "Jun 2024": "---",
+          "Sep 2024": "---",
+          "Dec 2024": "---",
+          "Mar 2025": "---",
+          "Jun 2025": "---",
+          "Sep 2025": "---",
+          "Dec 2025": "---",
+          "Mar 2026": null,
+          "Jun 2026": null
+        },
+        {
+          "_row_label": "Sales",
+          "Sep 2023": "91866",
+          "Dec 2023": "92048",
+          "Mar 2024": "84447",
+          "Jun 2024": "88021",
+          "Sep 2024": "132732",
+          "Dec 2024": "147308",
+          "Mar 2025": "143727",
+          "Jun 2025": "62717",
+          "Sep 2025": "78437",
+          "Dec 2025": "88898",
+          "Mar 2026": null,
+          "Jun 2026": null
+        },
+        {
+          "_row_label": "Expenses",
+          "Sep 2023": "66989",
+          "Dec 2023": "68877",
+          "Mar 2024": "63704",
+          "Jun 2024": "60703",
+          "Sep 2024": "87908",
+          "Dec 2024": "112877",
+          "Mar 2025": "108415",
+          "Jun 2025": "44139",
+          "Sep 2025": "55254",
+          "Dec 2025": "61402",
+          "Mar 2026": null,
+          "Jun 2026": null
+        },
+        {
+          "_row_label": "Operating Profit",
+          "Sep 2023": "24877",
+          "Dec 2023": "23171",
+          "Mar 2024": "20743",
+          "Jun 2024": "27318",
+          "Sep 2024": "44824",
+          "Dec 2024": "34431",
+          "Mar 2025": "35312",
+          "Jun 2025": "18578",
+          "Sep 2025": "23183",
+          "Dec 2025": "27496",
+          "Mar 2026": null,
+          "Jun 2026": null
+        },
+        {
+          "_row_label": "OPM %",
+          "Sep 2023": "27",
+          "Dec 2023": "25",
+          "Mar 2024": "25",
+          "Jun 2024": "31",
+          "Sep 2024": "34",
+          "Dec 2024": "23",
+          "Mar 2025": "25",
+          "Jun 2025": "30",
+          "Sep 2025": "30",
+          "Dec 2025": "31",
+          "Mar 2026": null,
+          "Jun 2026": null
+        },
+        {
+          "_row_label": "Other Income",
+          "Sep 2023": "6087",
+          "Dec 2023": "4270",
+          "Mar 2024": "-14932",
+          "Jun 2024": "2743",
+          "Sep 2024": "1832",
+          "Dec 2024": "2625",
+          "Mar 2025": "5241",
+          "Jun 2025": "12739",
+          "Sep 2025": "14186",
+          "Dec 2025": "14343",
+          "Mar 2026": null,
+          "Jun 2026": null
+        },
+        {
+          "_row_label": "Interest",
+          "Sep 2023": "5112",
+          "Dec 2023": "5689",
+          "Mar 2024": "4977",
+          "Jun 2024": "5210",
+          "Sep 2024": "4797",
+          "Dec 2024": "6225",
+          "Mar 2025": "9465",
+          "Jun 2025": "4197",
+          "Sep 2025": "2817",
+          "Dec 2025": "2936",
+          "Mar 2026": null,
+          "Jun 2026": null
+        },
+        {
+          "_row_label": "Depreciation",
+          "Sep 2023": "6283",
+          "Dec 2023": "8192",
+          "Mar 2024": "9093",
+          "Jun 2024": "7638",
+          "Sep 2024": "8895",
+          "Dec 2024": "10555",
+          "Mar 2025": "10723",
+          "Jun 2025": "4233",
+          "Sep 2025": "4810",
+          "Dec 2025": "5066",
+          "Mar 2026": null,
+          "Jun 2026": null
+        },
+        {
+          "_row_label": "Profit before tax",
+          "Sep 2023": "19569",
+          "Dec 2023": "13560",
+          "Mar 2024": "-8259",
+          "Jun 2024": "17213",
+          "Sep 2024": "32964",
+          "Dec 2024": "20276",
+          "Mar 2025": "20365",
+          "Jun 2025": "22887",
+          "Sep 2025": "29742",
+          "Dec 2025": "33837",
+          "Mar 2026": null,
+          "Jun 2026": null
+        },
+        {
+          "_row_label": "Tax %",
+          "Sep 2023": "30",
+          "Dec 2023": "28",
+          "Mar 2024": "-43",
+          "Jun 2024": "13",
+          "Sep 2024": "28",
+          "Dec 2024": "28",
+          "Mar 2025": "63",
+          "Jun 2025": "10",
+          "Sep 2025": "16",
+          "Dec 2025": "—",
+          "Mar 2026": null,
+          "Jun 2026": null
+        },
+        {
+          "_row_label": "Net Profit",
+          "Sep 2023": "13692",
+          "Dec 2023": "9698",
+          "Mar 2024": "-4744",
+          "Jun 2024": "15032",
+          "Sep 2024": "23710",
+          "Dec 2024": "14503",
+          "Mar 2025": "7539",
+          "Jun 2025": "20535",
+          "Sep 2025": "25096",
+          "Dec 2025": "28556",
+          "Mar 2026": null,
+          "Jun 2026": null
+        },
+        {
+          "_row_label": "EPS in Rs",
+          "Sep 2023": "27.82",
+          "Dec 2023": "19.01",
+          "Mar 2024": "-17.93",
+          "Jun 2024": "31.21",
+          "Sep 2024": "50.58",
+          "Dec 2024": "28.45",
+          "Mar 2025": "11.4",
+          "Jun 2025": "38.33",
+          "Sep 2025": "44.47",
+          "Dec 2025": "50.33",
+          "Mar 2026": null,
+          "Jun 2026": null
+        },
+        {
+          "_row_label": "Dividend Payout %",
+          "Sep 2023": "76",
+          "Dec 2023": "99",
+          "Mar 2024": "-22",
+          "Jun 2024": "30",
+          "Sep 2024": "89",
+          "Dec 2024": "357",
+          "Mar 2025": "259",
+          "Jun 2025": "113",
+          "Sep 2025": "76",
+          "Dec 2025": "—",
+          "Mar 2026": null,
+          "Jun 2026": null
+        },
+        {
+          "_row_label": "Item",
+          "Sep 2023": "Mar 2017",
+          "Dec 2023": "Mar 2018",
+          "Mar 2024": "Mar 2019",
+          "Jun 2024": "Mar 2020",
+          "Sep 2024": "Mar 2021",
+          "Dec 2024": "Mar 2022",
+          "Mar 2025": "Mar 2023",
+          "Jun 2025": "Mar 2024",
+          "Sep 2025": "Mar 2025",
+          "Dec 2025": "Mar 2026",
+          "Mar 2026": null,
+          "Jun 2026": null
+        },
+        {
+          "_row_label": "---",
+          "Sep 2023": "---",
+          "Dec 2023": "---",
+          "Mar 2024": "---",
+          "Jun 2024": "---",
+          "Sep 2024": "---",
+          "Dec 2024": "---",
+          "Mar 2025": "---",
+          "Jun 2025": "---",
+          "Sep 2025": "---",
+          "Dec 2025": "---",
+          "Mar 2026": null,
+          "Jun 2026": null
+        },
+        {
+          "_row_label": "Equity Capital",
+          "Sep 2023": "297",
+          "Dec 2023": "372",
+          "Mar 2024": "372",
+          "Jun 2024": "372",
+          "Sep 2024": "372",
+          "Dec 2024": "372",
+          "Mar 2025": "372",
+          "Jun 2025": "372",
+          "Sep 2025": "391",
+          "Dec 2025": "391",
+          "Mar 2026": null,
+          "Jun 2026": null
+        },
+        {
+          "_row_label": "Reserves",
+          "Sep 2023": "60128",
+          "Dec 2023": "62940",
+          "Mar 2024": "61925",
+          "Jun 2024": "54263",
+          "Sep 2024": "61906",
+          "Dec 2024": "65011",
+          "Mar 2025": "39051",
+          "Jun 2025": "30350",
+          "Sep 2025": "40821",
+          "Dec 2025": "49261",
+          "Mar 2026": null,
+          "Jun 2026": null
+        },
+        {
+          "_row_label": "Borrowings",
+          "Sep 2023": "71569",
+          "Dec 2023": "58159",
+          "Mar 2024": "66226",
+          "Jun 2024": "59187",
+          "Sep 2024": "57669",
+          "Dec 2024": "53583",
+          "Mar 2025": "80329",
+          "Jun 2025": "87706",
+          "Sep 2025": "91479",
+          "Dec 2025": "32947",
+          "Mar 2026": null,
+          "Jun 2026": null
+        },
+        {
+          "_row_label": "Other Liabilities",
+          "Sep 2023": "64952",
+          "Dec 2023": "58896",
+          "Mar 2024": "70045",
+          "Jun 2024": "66915",
+          "Sep 2024": "63549",
+          "Dec 2024": "74981",
+          "Mar 2025": "69703",
+          "Jun 2025": "69690",
+          "Sep 2025": "67249",
+          "Dec 2025": "149712",
+          "Mar 2026": null,
+          "Jun 2026": null
+        },
+        {
+          "_row_label": "Total Liabilities",
+          "Sep 2023": "196946",
+          "Dec 2023": "180367",
+          "Mar 2024": "198568",
+          "Jun 2024": "180737",
+          "Sep 2024": "183496",
+          "Dec 2024": "193947",
+          "Mar 2025": "189455",
+          "Jun 2025": "188118",
+          "Sep 2025": "199940",
+          "Dec 2025": "232311",
+          "Mar 2026": null,
+          "Jun 2026": null
+        },
+        {
+          "_row_label": "Fixed Assets",
+          "Sep 2023": "76756",
+          "Dec 2023": "80279",
+          "Mar 2024": "96397",
+          "Jun 2024": "88904",
+          "Sep 2024": "90470",
+          "Dec 2024": "93466",
+          "Mar 2025": "95744",
+          "Jun 2025": "98963",
+          "Sep 2025": "99905",
+          "Dec 2025": "30548",
+          "Mar 2026": null,
+          "Jun 2026": null
+        },
+        {
+          "_row_label": "CWIP",
+          "Sep 2023": "27557",
+          "Dec 2023": "32055",
+          "Mar 2024": "24959",
+          "Jun 2024": "18585",
+          "Sep 2024": "16314",
+          "Dec 2024": "15879",
+          "Mar 2025": "19529",
+          "Jun 2025": "22889",
+          "Sep 2025": "33896",
+          "Dec 2025": "10531",
+          "Mar 2026": null,
+          "Jun 2026": null
+        },
+        {
+          "_row_label": "Investments",
+          "Sep 2023": "46962",
+          "Dec 2023": "28700",
+          "Mar 2024": "33065",
+          "Jun 2024": "24753",
+          "Sep 2024": "16660",
+          "Dec 2024": "17291",
+          "Mar 2025": "13150",
+          "Jun 2025": "11869",
+          "Sep 2025": "14532",
+          "Dec 2025": "15418",
+          "Mar 2026": null,
+          "Jun 2026": null
+        },
+        {
+          "_row_label": "Other Assets",
+          "Sep 2023": "45671",
+          "Dec 2023": "39333",
+          "Mar 2024": "44147",
+          "Jun 2024": "48495",
+          "Sep 2024": "60052",
+          "Dec 2024": "67311",
+          "Mar 2025": "61032",
+          "Jun 2025": "54397",
+          "Sep 2025": "51607",
+          "Dec 2025": "175814",
+          "Mar 2026": null,
+          "Jun 2026": null
+        },
+        {
+          "_row_label": "Total Assets",
+          "Sep 2023": "196946",
+          "Dec 2023": "180367",
+          "Mar 2024": "198568",
+          "Jun 2024": "180737",
+          "Sep 2024": "183496",
+          "Dec 2024": "193947",
+          "Mar 2025": "189455",
+          "Jun 2025": "188118",
+          "Sep 2025": "199940",
+          "Dec 2025": "232311",
+          "Mar 2026": null,
+          "Jun 2026": null
+        },
+        {
+          "_row_label": "Item",
+          "Sep 2023": "Mar 2017",
+          "Dec 2023": "Mar 2018",
+          "Mar 2024": "Mar 2019",
+          "Jun 2024": "Mar 2020",
+          "Sep 2024": "Mar 2021",
+          "Dec 2024": "Mar 2022",
+          "Mar 2025": "Mar 2023",
+          "Jun 2025": "Mar 2024",
+          "Sep 2025": "Mar 2025",
+          "Dec 2025": "Mar 2026",
+          "Mar 2026": null,
+          "Jun 2026": null
+        },
+        {
+          "_row_label": "---",
+          "Sep 2023": "---",
+          "Dec 2023": "---",
+          "Mar 2024": "---",
+          "Jun 2024": "---",
+          "Sep 2024": "---",
+          "Dec 2024": "---",
+          "Mar 2025": "---",
+          "Jun 2025": "---",
+          "Sep 2025": "---",
+          "Dec 2025": "---",
+          "Mar 2026": null,
+          "Jun 2026": null
+        },
+        {
+          "_row_label": "Cash from Operating Activity",
+          "Sep 2023": "18083",
+          "Dec 2023": "17366",
+          "Mar 2024": "23754",
+          "Jun 2024": "19300",
+          "Sep 2024": "23980",
+          "Dec 2024": "34963",
+          "Mar 2025": "33065",
+          "Jun 2025": "35654",
+          "Sep 2025": "39562",
+          "Dec 2025": "39499",
+          "Mar 2026": null,
+          "Jun 2026": null
+        },
+        {
+          "_row_label": "Cash from Investing Activity",
+          "Sep 2023": "2681",
+          "Dec 2023": "15480",
+          "Mar 2024": "-10594",
+          "Jun 2024": "-5925",
+          "Sep 2024": "-6678",
+          "Dec 2024": "-2243",
+          "Mar 2025": "-668",
+          "Jun 2025": "-13676",
+          "Sep 2025": "-19158",
+          "Dec 2025": "-24134",
+          "Mar 2026": null,
+          "Jun 2026": null
+        },
+        {
+          "_row_label": "Cash from Financing Activity",
+          "Sep 2023": "-12425",
+          "Dec 2023": "-39255",
+          "Mar 2024": "-10242",
+          "Jun 2024": "-15547",
+          "Sep 2024": "-17565",
+          "Dec 2024": "-28903",
+          "Mar 2025": "-34142",
+          "Jun 2025": "-26092",
+          "Sep 2025": "-19223",
+          "Dec 2025": "-13549",
+          "Mar 2026": null,
+          "Jun 2026": null
+        },
+        {
+          "_row_label": "Net Cash Flow",
+          "Sep 2023": "8339",
+          "Dec 2023": "-6409",
+          "Mar 2024": "2918",
+          "Jun 2024": "-2172",
+          "Sep 2024": "-263",
+          "Dec 2024": "3817",
+          "Mar 2025": "-1745",
+          "Jun 2025": "-4114",
+          "Sep 2025": "1181",
+          "Dec 2025": "1816",
+          "Mar 2026": null,
+          "Jun 2026": null
+        },
+        {
+          "_row_label": "Free Cash Flow",
+          "Sep 2023": "12648",
+          "Dec 2023": "10070",
+          "Mar 2024": "14937",
+          "Jun 2024": "11631",
+          "Sep 2024": "17262",
+          "Dec 2024": "24658",
+          "Mar 2025": "19411",
+          "Jun 2025": "19097",
+          "Sep 2025": "22848",
+          "Dec 2025": "18747",
+          "Mar 2026": null,
+          "Jun 2026": null
+        },
+        {
+          "_row_label": "CFO/OP",
+          "Sep 2023": "109",
+          "Dec 2023": "83",
+          "Mar 2024": "114",
+          "Jun 2024": "99",
+          "Sep 2024": "96",
+          "Dec 2024": "91",
+          "Mar 2025": "114",
+          "Jun 2025": "109",
+          "Sep 2025": "230",
+          "Dec 2025": "205",
+          "Mar 2026": null,
+          "Jun 2026": null
+        },
+        {
+          "_row_label": "Item",
+          "Sep 2023": "Mar 2017",
+          "Dec 2023": "Mar 2018",
+          "Mar 2024": "Mar 2019",
+          "Jun 2024": "Mar 2020",
+          "Sep 2024": "Mar 2021",
+          "Dec 2024": "Mar 2022",
+          "Mar 2025": "Mar 2023",
+          "Jun 2025": "Mar 2024",
+          "Sep 2025": "Mar 2025",
+          "Dec 2025": "Mar 2026",
+          "Mar 2026": null,
+          "Jun 2026": null
+        },
+        {
+          "_row_label": "---",
+          "Sep 2023": "---",
+          "Dec 2023": "---",
+          "Mar 2024": "---",
+          "Jun 2024": "---",
+          "Sep 2024": "---",
+          "Dec 2024": "---",
+          "Mar 2025": "---",
+          "Jun 2025": "---",
+          "Sep 2025": "---",
+          "Dec 2025": "---",
+          "Mar 2026": null,
+          "Jun 2026": null
+        },
+        {
+          "_row_label": "Debtor Days",
+          "Sep 2023": "11",
+          "Dec 2023": "16",
+          "Mar 2024": "16",
+          "Jun 2024": "12",
+          "Sep 2024": "14",
+          "Dec 2024": "14",
+          "Mar 2025": "10",
+          "Jun 2025": "9",
+          "Sep 2025": "21",
+          "Dec 2025": "6",
+          "Mar 2026": null,
+          "Jun 2026": null
+        },
+        {
+          "_row_label": "Inventory Days",
+          "Sep 2023": "161",
+          "Dec 2023": "135",
+          "Mar 2024": "184",
+          "Jun 2024": "184",
+          "Sep 2024": "153",
+          "Dec 2024": "147",
+          "Mar 2025": "124",
+          "Jun 2025": "107",
+          "Sep 2025": "234",
+          "Dec 2025": "66",
+          "Mar 2026": null,
+          "Jun 2026": null
+        },
+        {
+          "_row_label": "Days Payable",
+          "Sep 2023": "308",
+          "Dec 2023": "202",
+          "Mar 2024": "242",
+          "Jun 2024": "275",
+          "Sep 2024": "245",
+          "Dec 2024": "221",
+          "Mar 2025": "91",
+          "Jun 2025": "83",
+          "Sep 2025": "165",
+          "Dec 2025": "88",
+          "Mar 2026": null,
+          "Jun 2026": null
+        },
+        {
+          "_row_label": "Cash Conversion Cycle",
+          "Sep 2023": "-136",
+          "Dec 2023": "-51",
+          "Mar 2024": "-42",
+          "Jun 2024": "-80",
+          "Sep 2024": "-77",
+          "Dec 2024": "-61",
+          "Mar 2025": "43",
+          "Jun 2025": "33",
+          "Sep 2025": "90",
+          "Dec 2025": "-16",
+          "Mar 2026": null,
+          "Jun 2026": null
+        },
+        {
+          "_row_label": "Working Capital Days",
+          "Sep 2023": "-338",
+          "Dec 2023": "-182",
+          "Mar 2024": "-212",
+          "Jun 2024": "-186",
+          "Sep 2024": "-150",
+          "Dec 2024": "-82",
+          "Mar 2025": "-120",
+          "Jun 2025": "-107",
+          "Sep 2025": "-243",
+          "Dec 2025": "-121",
+          "Mar 2026": null,
+          "Jun 2026": null
+        },
+        {
+          "_row_label": "ROCE %",
+          "Sep 2023": "11",
+          "Dec 2023": "15",
+          "Mar 2024": "14",
+          "Jun 2024": "10",
+          "Sep 2024": "17",
+          "Dec 2024": "28",
+          "Mar 2025": "20",
+          "Jun 2025": "21",
+          "Sep 2025": "12",
+          "Dec 2025": "16",
+          "Mar 2026": null,
+          "Jun 2026": null
+        }
+      ]
+    },
+    "Shareholding Pattern": {
+      "label": "Shareholding Pattern",
+      "period_header": [
+        "Sep 2023",
+        "Dec 2023",
+        "Mar 2024",
+        "Jun 2024",
+        "Sep 2024",
+        "Dec 2024",
+        "Mar 2025",
+        "Jun 2025",
+        "Sep 2025",
+        "Dec 2025",
+        "Mar 2026",
+        "Jun 2026"
+      ],
+      "rows": [
+        {
+          "_row_label": "Promoters",
+          "Sep 2023": "63.71%",
+          "Dec 2023": "63.71%",
+          "Mar 2024": "61.95%",
+          "Jun 2024": "59.32%",
+          "Sep 2024": "56.38%",
+          "Dec 2024": "56.38%",
+          "Mar 2025": "56.38%",
+          "Jun 2025": "56.38%",
+          "Sep 2025": "56.38%",
+          "Dec 2025": "56.38%",
+          "Mar 2026": "56.38%",
+          "Jun 2026": "54.72%"
+        },
+        {
+          "_row_label": "FIIs",
+          "Sep 2023": "7.82%",
+          "Dec 2023": "7.74%",
+          "Mar 2024": "8.78%",
+          "Jun 2024": "10.23%",
+          "Sep 2024": "11.45%",
+          "Dec 2024": "12.02%",
+          "Mar 2025": "11.15%",
+          "Jun 2025": "10.6%",
+          "Sep 2025": "11.08%",
+          "Dec 2025": "12.15%",
+          "Mar 2026": "13.93%",
+          "Jun 2026": "15.77%"
+        },
+        {
+          "_row_label": "DIIs",
+          "Sep 2023": "10.59%",
+          "Dec 2023": "11.19%",
+          "Mar 2024": "13.15%",
+          "Jun 2024": "14.78%",
+          "Sep 2024": "16.39%",
+          "Dec 2024": "15.49%",
+          "Mar 2025": "16.38%",
+          "Jun 2025": "16.47%",
+          "Sep 2025": "16.24%",
+          "Dec 2025": "15.3%",
+          "Mar 2026": "13.43%",
+          "Jun 2026": "10.83%"
+        },
+        {
+          "_row_label": "Government",
+          "Sep 2023": "0.07%",
+          "Dec 2023": "0.07%",
+          "Mar 2024": "0.07%",
+          "Jun 2024": "0.07%",
+          "Sep 2024": "0.07%",
+          "Dec 2024": "0.07%",
+          "Mar 2025": "0.07%",
+          "Jun 2025": "0.06%",
+          "Sep 2025": "0.06%",
+          "Dec 2025": "0.06%",
+          "Mar 2026": "0.06%",
+          "Jun 2026": "0.06%"
+        },
+        {
+          "_row_label": "Public",
+          "Sep 2023": "13.7%",
+          "Dec 2023": "13.17%",
+          "Mar 2024": "11.84%",
+          "Jun 2024": "11.27%",
+          "Sep 2024": "11.32%",
+          "Dec 2024": "11.71%",
+          "Mar 2025": "11.71%",
+          "Jun 2025": "12.02%",
+          "Sep 2025": "11.84%",
+          "Dec 2025": "11.65%",
+          "Mar 2026": "11.62%",
+          "Jun 2026": "14.11%"
+        },
+        {
+          "_row_label": "Others",
+          "Sep 2023": "4.1%",
+          "Dec 2023": "4.12%",
+          "Mar 2024": "4.21%",
+          "Jun 2024": "4.34%",
+          "Sep 2024": "4.38%",
+          "Dec 2024": "4.33%",
+          "Mar 2025": "4.31%",
+          "Jun 2025": "4.46%",
+          "Sep 2025": "4.39%",
+          "Dec 2025": "4.45%",
+          "Mar 2026": "4.58%",
+          "Jun 2026": "4.5%"
+        },
+        {
+          "_row_label": "No. of Shareholders",
+          "Sep 2023": "1942800",
+          "Dec 2023": "1909460",
+          "Mar 2024": "1785800",
+          "Jun 2024": "1792820",
+          "Sep 2024": "1866940",
+          "Dec 2024": "1999980",
+          "Mar 2025": "2046990",
+          "Jun 2025": "2087740",
+          "Sep 2025": "2074960",
+          "Dec 2025": "2031540",
+          "Mar 2026": "2110600",
+          "Jun 2026": "2601130"
+        }
+      ]
+    },
+    "Technical Indicators": {
+      "label": "Technical Indicators",
+      "period_header": [
+        "Indicator",
+        "Value",
+        "Signal"
+      ],
+      "rows": [
+        {
+          "_row_label": null,
+          "Indicator": "SMA (10)",
+          "Value": "271.08",
+          "Signal": "Sell"
+        },
+        {
+          "_row_label": null,
+          "Indicator": "EMA (10)",
+          "Value": "270.75",
+          "Signal": "Sell"
+        },
+        {
+          "_row_label": null,
+          "Indicator": "SMA (20)",
+          "Value": "273.08",
+          "Signal": "Sell"
+        },
+        {
+          "_row_label": null,
+          "Indicator": "EMA (20)",
+          "Value": "272.12",
+          "Signal": "Sell"
+        },
+        {
+          "_row_label": null,
+          "Indicator": "SMA (50)",
+          "Value": "270.45",
+          "Signal": "Sell"
+        },
+        {
+          "_row_label": null,
+          "Indicator": "EMA (50)",
+          "Value": "275.06",
+          "Signal": "Sell"
+        },
+        {
+          "_row_label": null,
+          "Indicator": "SMA (100)",
+          "Value": "288.46",
+          "Signal": "Sell"
+        },
+        {
+          "_row_label": null,
+          "Indicator": "EMA (100)",
+          "Value": "275.49",
+          "Signal": "Sell"
+        },
+        {
+          "_row_label": null,
+          "Indicator": "SMA (200)",
+          "Value": "266.12",
+          "Signal": "Sell"
+        },
+        {
+          "_row_label": null,
+          "Indicator": "EMA (200)",
+          "Value": "260.48",
+          "Signal": "Buy"
+        },
+        {
+          "_row_label": null,
+          "Indicator": "Indicator",
+          "Value": "Value",
+          "Signal": "Signal"
+        },
+        {
+          "_row_label": null,
+          "Indicator": "---",
+          "Value": "---",
+          "Signal": "---"
+        },
+        {
+          "_row_label": null,
+          "Indicator": "RSI (14)",
+          "Value": "41.77",
+          "Signal": "Neutral"
+        },
+        {
+          "_row_label": null,
+          "Indicator": "MACD (12,26,9)",
+          "Value": "-1.31",
+          "Signal": "Sell"
+        },
+        {
+          "_row_label": null,
+          "Indicator": "Stochastic (14,3,3)",
+          "Value": "17.44",
+          "Signal": "Buy"
+        },
+        {
+          "_row_label": null,
+          "Indicator": "ADX (14)",
+          "Value": "16.03",
+          "Signal": "Neutral"
+        },
+        {
+          "_row_label": null,
+          "Indicator": "Williams %R (14)",
+          "Value": "-79.13",
+          "Signal": "Neutral"
+        },
+        {
+          "_row_label": null,
+          "Indicator": "ATR (14)",
+          "Value": "7.81",
+          "Signal": "Neutral"
+        },
+        {
+          "_row_label": null,
+          "Indicator": "ROC (12)",
+          "Value": "-7.96",
+          "Signal": "Sell"
+        },
+        {
+          "_row_label": null,
+          "Indicator": "Stoch RSI (14)",
+          "Value": "0",
+          "Signal": "Buy"
+        },
+        {
+          "_row_label": null,
+          "Indicator": "UO (7,14,28)",
+          "Value": "45.91",
+          "Signal": "Neutral"
+        }
+      ]
+    },
+    "Analyst Ratings": {
+      "label": "Analyst Ratings",
+      "period_header": [
+        "Recommendation",
+        "Analysts",
+        "Share"
+      ],
+      "rows": [
+        {
+          "_row_label": null,
+          "Recommendation": "Buy",
+          "Analysts": "7",
+          "Share": "77.78%"
+        },
+        {
+          "_row_label": null,
+          "Recommendation": "Hold",
+          "Analysts": "1",
+          "Share": "11.11%"
+        },
+        {
+          "_row_label": null,
+          "Recommendation": "Sell",
+          "Analysts": "1",
+          "Share": "11.11%"
+        }
+      ]
+    },
+    "Filings & Documents": {
+      "label": "Filings & Documents",
+      "period_header": [
+        "Date",
+        "Document"
+      ],
+      "rows": [
+        {
+          "_row_label": null,
+          "Date": "2026-09-01",
+          "Document": "[Announcement under Regulation 30 (LODR)-Newspaper Publication](https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e5d509a2-987e-4581-a46c-8c4587025b7f.pdf)"
+        },
+        {
+          "_row_label": null,
+          "Date": "2026-08-31",
+          "Document": "[Shareholder Meeting / Postal Ballot-Notice of Postal Ballot](https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=bb83dbad-1700-4e3c-a246-4031cd14bacc.pdf)"
+        },
+        {
+          "_row_label": null,
+          "Date": "2026-08-27",
+          "Document": "[Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation](https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d419e112-4cf5-4faf-b19e-3dfee65215a1.pdf)"
+        },
+        {
+          "_row_label": null,
+          "Date": "2026-08-25",
+          "Document": "[Disclosure under Regulation 30A of LODR](https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=fad103c0-e9ec-4088-8f95-1b2fd8d0fef1.pdf)"
+        },
+        {
+          "_row_label": null,
+          "Date": "2026-08-25",
+          "Document": "[Disclosures under Reg. 31(1) and 31(2) of SEBI (SAST) Regulations 2011.](https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=965E2F34_56B9_454B_9ED5_1A1DA3C9D159_102525.pdf)"
+        },
+        {
+          "_row_label": null,
+          "Date": "2026-08-24",
+          "Document": "[Disclosures under Reg. 29(2) of SEBI (SAST) Regulations 2011](https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=66476ADB_D7CC_41C0_B5B5_71C090CEB8AE_144613.pdf)"
+        },
+        {
+          "_row_label": null,
+          "Date": "2026-08-14",
+          "Document": "[Disclosures under Reg. 31(1) and 31(2) of SEBI (SAST) Regulations 2011.](https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ACA92AD4_4761_491C_8F1C_B17915FF293C_114309.pdf)"
+        },
+        {
+          "_row_label": null,
+          "Date": "2026-08-14",
+          "Document": "[Declaration As Successful Bidder Of Punnam Manganese Block Under The E-Auction For The Block Conducted By The Department Of Mines & Geology Government Of Andhra Pradesh](https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a6348a68-a4c2-4ea1-83f8-5967be17f46a.pdf)"
+        },
+        {
+          "_row_label": null,
+          "Date": "2026-08-13",
+          "Document": "[Announcement under Regulation 30 (LODR)-Credit Rating](https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0632084b-4efd-4c0d-9978-658b67ed1789.pdf)"
+        },
+        {
+          "_row_label": null,
+          "Date": "2026-08-12",
+          "Document": "[Disclosures under Reg. 29(2) of SEBI (SAST) Regulations 2011](https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=C0DD1F9F_3364_47CD_AA72_6A76D0677477_112111.pdf)"
+        },
+        {
+          "_row_label": null,
+          "Date": "Date",
+          "Document": "Document"
+        },
+        {
+          "_row_label": null,
+          "Date": "---",
+          "Document": "---"
+        },
+        {
+          "_row_label": null,
+          "Date": "2026-08-04",
+          "Document": "[Announcement under Regulation 30 (LODR)-Earnings Call Transcript](https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1748ef78-59c9-4348-8b3a-27a9104d9d0d.pdf)"
+        },
+        {
+          "_row_label": null,
+          "Date": "2026-05-05",
+          "Document": "[Announcement under Regulation 30 (LODR)-Earnings Call Transcript](https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8f79b906-83ab-4f60-85ef-d8b56c80dcec.pdf)"
+        },
+        {
+          "_row_label": null,
+          "Date": "Date",
+          "Document": "Document"
+        },
+        {
+          "_row_label": null,
+          "Date": "---",
+          "Document": "---"
+        },
+        {
+          "_row_label": null,
+          "Date": "2026-07-30",
+          "Document": "[Announcement under Regulation 30 (LODR)-Investor Presentation](https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b8b95ea1-9d39-4176-9a1a-15f1a2c5c4bd.pdf)"
+        },
+        {
+          "_row_label": null,
+          "Date": "2026-07-30",
+          "Document": "[Announcement under Regulation 30 (LODR)-Investor Presentation](https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f8b18e0e-4d21-46a7-916d-732b896b18ed.pdf)"
+        },
+        {
+          "_row_label": null,
+          "Date": "2026-04-29",
+          "Document": "[Announcement under Regulation 30 (LODR)-Investor Presentation](https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=918fc405-534d-492a-9def-a386f80ba291.pdf)"
+        },
+        {
+          "_row_label": null,
+          "Date": "2026-02-19",
+          "Document": "[Announcement under Regulation 30 (LODR)-Investor Presentation](https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4db3b45f-634b-485f-92b4-9f5a54e0ee3e.pdf)"
+        },
+        {
+          "_row_label": null,
+          "Date": "Date",
+          "Document": "Document"
+        },
+        {
+          "_row_label": null,
+          "Date": "---",
+          "Document": "---"
+        },
+        {
+          "_row_label": null,
+          "Date": "2026-07-30",
+          "Document": "[Unaudited Financial Results - Q1 FY 2026-27](https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ce73e273-47f6-4b61-a88f-734f9f9f0f5b.pdf)"
+        },
+        {
+          "_row_label": null,
+          "Date": "2026-04-29",
+          "Document": "[Outcome Of Board Meeting](https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9574f190-8265-4595-957d-a8d66f81e640.pdf)"
+        },
+        {
+          "_row_label": null,
+          "Date": "Date",
+          "Document": "Document"
+        },
+        {
+          "_row_label": null,
+          "Date": "---",
+          "Document": "---"
+        },
+        {
+          "_row_label": null,
+          "Date": "9h - Trading window closed from April 1, 2026 until 48 hours after audited Q4/FY2026 results declaration.",
+          "Document": "[Closure of Trading Window 9h - Trading window closed from April 1, 2026 until 48 hours after audited Q4/FY2026 results declaration.](https://www.bseindia.com/xml-data/corpfiling/AttachLive/b41e5155-eda0-4742-b72d-bf1a4f09b21d.pdf)"
+        },
+        {
+          "_row_label": null,
+          "Date": "8h - ESGRisk.ai updated Vedanta’s ESG rating to 57 from 67 on April 27, 2026.",
+          "Document": "[Disclosure Under Regulation 30 Of SEBI ('SEBI') (LODR) Regulations, 2015 ('Listing Regulations'), As Amended - ESG Ratings 8h - ESGRisk.ai updated Vedanta’s ESG rating to 57 from 67 on April 27, 2026.](https://www.bseindia.com/xml-data/corpfiling/AttachLive/e2d9864e-597b-4c5a-ad3d-fc08cf254728.pdf)"
+        },
+        {
+          "_row_label": null,
+          "Date": "8h - Allotment of 257,500 NCDs of ₹100,000 each, totaling ₹2,575 crore, approved March 16, 2026.",
+          "Document": "[Announcement under Regulation 30 (LODR)-Meeting Updates 8h - Allotment of 257,500 NCDs of ₹100,000 each, totaling ₹2,575 crore, approved March 16, 2026.](https://www.bseindia.com/xml-data/corpfiling/AttachLive/f33b43c4-b9d8-4a8e-8d0f-e29fbcde0b05.pdf)"
+        },
+        {
+          "_row_label": null,
+          "Date": "8h - Allotment of 2,57,500 NCDs (₹100,000 each), aggregating INR 2,575 crore, approved March 16, 2026.",
+          "Document": "[Announcement under Regulation 30 (LODR)-Allotment 8h - Allotment of 2,57,500 NCDs (₹100,000 each), aggregating INR 2,575 crore, approved March 16, 2026.](https://www.bseindia.com/xml-data/corpfiling/AttachLive/ef70e53d-c991-4a68-97f8-93dc98976f39.pdf)"
+        },
+        {
+          "_row_label": null,
+          "Date": "8 May - Vedanta shareholders approved Mr. S.V. Murali Dhar Rao’s appointment as independent director for April 1, 2026-March 31, 2027.",
+          "Document": "[Shareholder Meeting / Postal Ballot-Outcome of Postal_Ballot 8 May - Vedanta shareholders approved Mr. S.V. Murali Dhar Rao’s appointment as independent director for April 1, 2026-March 31, 2027.](https://www.bseindia.com/xml-data/corpfiling/AttachLive/277d0689-30d8-4e27-b4f9-08a891d05094.pdf)"
+        },
+        {
+          "_row_label": null,
+          "Date": "8 May - Seventh deed of variation to Vedanta ESOS Trust effective 1 May 2026; new trustees appointed after demerger.",
+          "Document": "[Compliance Under The SEBI (Share Based Employee Benefits And Sweat Equity) Regulations, 2021 8 May - Seventh deed of variation to Vedanta ESOS Trust effective 1 May 2026; new trustees appointed after demerger.](https://www.bseindia.com/xml-data/corpfiling/AttachLive/a196f5ae-9f88-4378-bfed-7479fa6eae65.pdf)"
+        },
+        {
+          "_row_label": null,
+          "Date": "7h - Vedanta’s SES ESG rating updated to 59.9 from 60.8 on April 21, 2026.",
+          "Document": "[Disclosure Under Regulation 30 Of SEBI ('SEBI') (LODR) Regulations, 2015 ('Listing Regulations'), As Amended - ESG Ratings 7h - Vedanta’s SES ESG rating updated to 59.9 from 60.8 on April 21, 2026.](https://www.bseindia.com/xml-data/corpfiling/AttachLive/35cb849f-cc93-4405-880b-b0acb4e80a0f.pdf)"
+        },
+        {
+          "_row_label": null,
+          "Date": "6 May - Vedanta shared its April 2026 'Insights' update for stakeholder information.",
+          "Document": "[Disclosure Under Regulation 30 Of SEBI (LODR) Regulations, 2015 - Insights By Vedanta 6 May - Vedanta shared its April 2026 'Insights' update for stakeholder information.](https://www.bseindia.com/xml-data/corpfiling/AttachLive/1deb047e-69ce-4842-bf31-023fedb47893.pdf)"
+        },
+        {
+          "_row_label": null,
+          "Date": "6 May - ICRA reaffirmed Vedanta’s AA/A1+ ratings and withdrew ₹2,600 crore NCD rating after demerger.",
+          "Document": "[Announcement under Regulation 30 (LODR)-Credit Rating 6 May - ICRA reaffirmed Vedanta’s AA/A1+ ratings and withdrew ₹2,600 crore NCD rating after demerger.](https://www.bseindia.com/xml-data/corpfiling/AttachLive/14a7b128-21e1-40d4-b0d7-adaec5283ac7.pdf)"
+        },
+        {
+          "_row_label": null,
+          "Date": "6 Apr - Postal ballot seeks shareholder approval to appoint S.V. Murali Dhar Rao as independent director from April 1, 2026 to March 31, 2027.",
+          "Document": "[Shareholder Meeting / Postal Ballot-Notice of Postal Ballot 6 Apr - Postal ballot seeks shareholder approval to appoint S.V. Murali Dhar Rao as independent director from April 1, 2026 to March 31, 2027.](https://www.bseindia.com/xml-data/corpfiling/AttachHis/41a82e3a-60e5-4e56-9d2b-c19acbd45fa5.pdf)"
+        },
+        {
+          "_row_label": null,
+          "Date": "Date",
+          "Document": "Document"
+        },
+        {
+          "_row_label": null,
+          "Date": "---",
+          "Document": "---"
+        },
+        {
+          "_row_label": null,
+          "Date": "Apr 2026",
+          "Document": "[Concall - Apr 2026](https://www.bseindia.com/xml-data/corpfiling/AttachLive/918fc405-534d-492a-9def-a386f80ba291.pdf)"
+        }
+      ]
+    }
+  },
+  "source": "https://tapetide.com/stocks/VEDL.md",
+  "generated_at": "2026-09-13T12:37:56.281Z"
+}

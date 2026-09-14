@@ -1,0 +1,22 @@
+Item,Indicator,Value,Signal
+,SMA (10),1415.15,Sell
+,EMA (10),1405.44,Sell
+,SMA (20),1417.31,Sell
+,EMA (20),1414.24,Sell
+,SMA (50),1424.43,Sell
+,EMA (50),1407.51,Sell
+,SMA (100),1361.2,Buy
+,EMA (100),1385.21,Sell
+,SMA (200),1356.75,Buy
+,EMA (200),1370.33,Buy
+,Indicator,Value,Signal
+,---,---,---
+,RSI (14),37.19,Neutral
+,"MACD (12,26,9)",-7.37,Sell
+,"Stochastic (14,3,3)",10.68,Buy
+,ADX (14),16.77,Neutral
+,Williams %R (14),-86.46,Buy
+,ATR (14),21.41,Neutral
+,ROC (12),-3.55,Sell
+,Stoch RSI (14),0,Buy
+,"UO (7,14,28)",34.66,Neutral

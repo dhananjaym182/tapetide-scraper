@@ -263,9 +263,10 @@ git commit -m "Describe the change"
 git push            # CI runs automatically
 ```
 
-> ⚠️ The `.gitignore` excludes `output/`, `out/`, `__pycache__/` and logs.
-> Do **not** commit the downloaded datasets — re-run the batch downloader to
-> regenerate them fresh anytime.
+> ℹ️ The downloaded dataset (`out/nifty500_data/`, ~45 MB) **is tracked in this
+> repo** so you can browse/download it straight from GitHub. It's refreshed by
+> re-running the batch downloader — delete the folder in a fresh clone if you
+> only want the code.
 
 **Suggested topics:** `python`, `nse`, `nifty500`, `stock-market`,
 `financial-data`, `webscraper`, `india-stocks`, `screener`

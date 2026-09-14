@@ -1,6 +1,6 @@
-# Downloaded datasets — regenerate anytime with batch_download.py
-output/
-nifty500_data/
+# NOTE: the downloaded dataset under out/ is intentionally tracked in git
+# (45 MB, Nifty 500 JSON + CSVs) so it can be downloaded from GitHub.
+# To un-track it again, run: git rm -r --cached out && git commit -m "untrack data"
 *.json.bak
 
 # Runtime logs
