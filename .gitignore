@@ -1,0 +1,21 @@
+# Downloaded datasets — regenerate anytime with batch_download.py
+output/
+nifty500_data/
+*.json.bak
+
+# Runtime logs
+download.log
+errors.log
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
