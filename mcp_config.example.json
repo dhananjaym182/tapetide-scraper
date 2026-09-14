@@ -1,0 +1,45 @@
+{
+  "_comment": "Tapetide MCP server config examples. Copy the variant you need into your client's config file and replace YOUR_TOKEN with your token from https://tapetide.com/settings/tokens. Do NOT commit a file containing your real token.",
+
+  "_variant_1_remote_http_with_api_token": {
+    "mcpServers": {
+      "tapetide": {
+        "type": "http",
+        "url": "https://mcp.tapetide.com/mcp",
+        "headers": {
+          "Authorization": "Bearer YOUR_TOKEN"
+        }
+      }
+    }
+  },
+
+  "_variant_2_oauth_url_only": {
+    "mcpServers": {
+      "tapetide": {
+        "url": "https://mcp.tapetide.com/mcp"
+      }
+    }
+  },
+
+  "_variant_3_local_stdio_bridge": {
+    "mcpServers": {
+      "tapetide": {
+        "command": "npx",
+        "args": ["-y", "tapetide-mcp"],
+        "env": {
+          "TAPETIDE_TOKEN": "YOUR_TOKEN"
+        }
+      }
+    }
+  },
+
+  "_where_to_put_it": {
+    "cursor": ".cursor/mcp.json (variant 1 or 2; sign in via Settings -> MCP for OAuth)",
+    "vs_code": ".vscode/mcp.json (rename mcpServers to servers)",
+    "claude_desktop": "claude_desktop_config.json (use variant 3 — stdio bridge)",
+    "cline": "use variant 3 (stdio bridge)",
+    "claude_code_cli": "claude mcp add --transport http tapetide https://mcp.tapetide.com/mcp",
+    "opencode": "opencode.json (Remote entry)",
+    "antigravity": "mcp_config.json (use serverUrl instead of url)"
+  }
+}

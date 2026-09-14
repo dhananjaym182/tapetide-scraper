@@ -19,3 +19,6 @@ venv/
 .idea/
 .DS_Store
 Thumbs.db
+
+# Never commit a real MCP token — only mcp_config.example.json is tracked
+mcp_config.json

@@ -12,6 +12,7 @@ Built and verified against all **500 Nifty 500 constituents** (see
 ## ✨ Features
 
 - **Zero dependencies** — Python 3.9+ standard library only, nothing to `pip install`
+- **Two data paths** — keyless `.md` mirror scraping **and** an authenticated MCP client (`mcp_client.py`, 52 tools, verified)
 - **Full financial snapshot** — price, market cap, P/E (reported & TTM), EPS,
   book value, P/B, dividend yield, ROE, ROCE, D/E, revenue, net income, EBITDA,
   52-week range, RSI(14), volume and more
@@ -159,6 +160,20 @@ Run against the official NSE Nifty 500 list on 2026-09-13:
 NSE itself includes** in its index constituent CSVs — it is not a real stock,
 so the 404 is correct behavior. The real `HEG` downloads fine.
 
+### Three-way data verification (MCP vs .md scraper)
+
+Cross-checked SBIN, RELIANCE and TCS across all three Tapetide data paths
+(MCP API, this scraper, raw `.md`) on 2026-09-14:
+
+| Check | Result |
+|-------|--------|
+| Price (3 stocks) | **exact match** |
+| Market cap, 52w high/low, ROE, dividend yield (3 stocks × 5 fields) | **15/15 exact match** (MCP `get_company_profile` vs `.md` snapshot) |
+| TTM EPS arithmetic (MCP TTM = sum of last 4 `.md` quarterly EPS) | **exact match, 3/3** |
+| Tapetide Score pillars (6 per stock) | **18/18 identical values** |
+| Shareholding, quarterly cells (~280 compared) | ~90% identical; diffs are known rounding (0.1pp) and stale rows on the MCP side |
+| Historical depth | `.md`: quarterly ~3 yrs · MCP: **annual Mar 2015 → now + TTM** + point-in-time availability metadata |
+
 ---
 
 ## ⚠️ Notes & Limitations
@@ -170,9 +185,11 @@ so the 404 is correct behavior. The real `HEG` downloads fine.
   not a fixed historical archive.
 - **Not investment advice:** data is compiled from company filings and exchange
   disclosures; Tapetide labels it research/information only.
-- **Richer API exists:** an MCP server (`https://mcp.tapetide.com/mcp`, free
-  token) exposes structured tools like `get_financials` and
-  `get_price_history` — see `tapetide_downloader/README.md` for the roadmap.
+- **Want structured API data instead?** Tapetide runs an MCP server
+  (`https://mcp.tapetide.com/mcp`, free token, 52 tools — quotes, annual
+  financials to Mar 2015, OHLCV, screener with 326 ratios, FII/DII flows).
+  This repo ships a ready client: `python3 tapetide_downloader/mcp_client.py verify`.
+  Config snippets for editors/agents: `mcp_config.example.json`.
 
 ---
 

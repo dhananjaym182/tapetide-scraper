@@ -4,8 +4,8 @@ Two ways to get data out of Tapetide:
 
 | Path | What it hits | Auth | Best for |
 |------|--------------|------|----------|
-| **Markdown mirror (this script)** | `https://tapetide.com/stocks/{SYMBOL}.md` | None | Quick, single-stock fetches without setting up a token. |
-| **MCP server (TODO)** | `https://mcp.tapetide.com/mcp` | Free token from `tapetide.com/settings/tokens` | Structured tool calls (`get_financials`, `get_stock_quote`, screens, etc.) and higher limits. |
+| **Markdown mirror (this script)** | `https://tapetide.com/stocks/{SYMBOL}.md` | None | Quick, single-stock fetches without setting up a token. Quarterly tables (~3 years). |
+| **MCP server (`mcp_client.py`)** | `https://mcp.tapetide.com/mcp` | Free token from `tapetide.com/settings/tokens` | Structured tool calls (52 tools), annual data back to Mar 2015, point-in-time availability metadata. Free tier: 50 calls/day. |
 
 ## Markdown mirror — how Tapetide exposes data without any API key
 
@@ -79,17 +79,40 @@ have `Item` plus one column per fiscal year / quarter exactly as shown on the si
 - The data is compiled from company filings and exchange disclosures and is labeled
   by Tapetide as research/information only, not investment advice.
 
-## TODO — structured MCP path
+## Structured MCP path — `mcp_client.py`
 
-For heavier use (historical OHLCV, screens, shareholding, FII/DII flows, option
-chains, portfolio), the real API lives behind the Tapetide MCP server:
+`mcp_client.py` is a minimal MCP (Streamable HTTP) client using only the
+standard library. It authenticates with a Bearer token and talks to the
+Tapetide MCP server (52 tools).
 
-- Endpoint: `https://mcp.tapetide.com/mcp`
-- Free token: `https://tapetide.com/settings/tokens`
-- Tool catalog: `https://tapetide.com/mcp/llms-full.txt`
+```bash
+# 1. Get a free token: https://tapetide.com/settings/tokens
+export TAPETIDE_TOKEN="tpt_rt_..."
 
-A natural next step is a small MCP client wrapper (for example with `pymcp` or a
-manual Streamable HTTP client) that calls `get_financials`, `get_stock_quote`,
-`get_price_history`, `get_shareholding`, and so on, with the same symbol input
-signature as this script. That gives structured JSON instead of parsing Markdown,
-and it is what the site itself uses for the richer features.
+# 2. Verify auth and list tools
+python3 tapetide_downloader/mcp_client.py verify
+
+# 3. Call any tool
+python3 tapetide_downloader/mcp_client.py call get_stock_quote --args '{"symbol": "RELIANCE"}' --pretty
+python3 tapetide_downloader/mcp_client.py call get_financials --args '{"symbol": "SBIN", "section": "profit_loss"}' --pretty
+```
+
+Notes learned the hard way (handled by the client):
+
+- **Cloudflare WAF:** the server blocks the default `Python-urllib` User-Agent
+  (Error 1010). The client sends a browser-style UA — do not remove it.
+- **Truncation:** unfiltered `get_financials` responses are cut at 25,000 chars
+  server-side. Pass `section` (`profit_loss`, `balance_sheet`, `cash_flow`,
+  `ratios`) to get one complete 5-15 KB section per call.
+- **`get_stock_quote` returns price/volume only** — for PE/PB/market cap/52w
+  range use `get_company_profile`.
+- MCP `get_financials` is **annual** (Mar 2015 → today + TTM); the `.md` mirror
+  table is **quarterly** (~3 years). MCP also ships a per-period
+  `availability` array (`available_from`, `basis: reported|estimated`) for
+  point-in-time/backtest use.
+
+MCP client-app config examples (Cursor, VS Code, Claude Desktop, ...): see
+`mcp_config.example.json` at the repo root. Never commit a real token —
+`mcp_config.json` is gitignored.
+
+Tool catalog: `https://tapetide.com/mcp/llms-full.txt`
